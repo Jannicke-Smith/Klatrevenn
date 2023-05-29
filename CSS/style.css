@@ -1,0 +1,9 @@
+html {
+font-size: 120%;
+}
+
+.background-image {
+  background: url(../assets/klatrerbakgrunn.jpg) no-repeat center center fixed; 
+  background-size: cover;
+
+}
