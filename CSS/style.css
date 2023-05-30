@@ -8,42 +8,80 @@ body {
     font-family: Impact, 'Arial Narrow Bold', sans-serif;
 }
 
-
-/*
-  .klatrerbakgrunn {
-  background: url(../assets/klatrerbakgrunn.jpg) no-repeat center center fixed; 
-  background-size: cover;
-  height: 2560px;
-  width: 1440px;
-}
-*/
-
 header .ToppLogo {
     display:inline-flex;
     flex-direction: row;
     place-items: center;
     justify-content: center;
-    height: 5rem;
+    height: 2rem;
     width: 5rem;
     padding-left: 50%;
 }
 
+ul {
+    display: flex;
+}
+
+li {
+    list-style:none;
+    display: inline-block;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #006A65;
+    margin: 0%;
+}
 
 main {
-    background-image: url(./assets/klatrerbakgrunn.jpg);
-    background-image: no-repeat;
-    background-size: cover;
-    background-position: fit-content;
-    width: 70%;
-    height: 70%;
+    background-size: 100vh 100vh; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    height:100vh;
 }
 
-section .LoggInn {
+img {
+    padding: 0rem;
+    display: block;
+    margin: 0 auto;
+    max-height: 70%;
+    max-width: 70%;
+}
+
+section{
+    display: inline;
+    flex-direction: row;
+    align-items: center;
+    position: center;
+}
+
+footer {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: auto;
+}
+
+.loginn {
     background-color: #006A65;
-    flex-direction: column;
-    display: inline-flex;
-    padding-left: 50%;
-
-    
+    color: #FAFDFB;
+    flex-direction: row;
+    place-items: center;
+    display: inline;
+    padding-left: 30%;
+    position: center;
+    justify-content: center;
+    padding: 2rem 5rem;
 }
 
+ .sign-up {
+        background-color: #71F7ED;
+        color: #000;
+        flex-direction: row-reverse;
+        place-items: center;
+        display: inline;
+        padding-right: 30%;
+        position: center;
+        justify-content: center;
+        padding: 2rem 5rem;
+    }
