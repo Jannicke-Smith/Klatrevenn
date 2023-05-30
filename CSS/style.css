@@ -18,25 +18,32 @@ body {
 }
 */
 
-.ToppLogo {
+header .ToppLogo {
     display:inline-flex;
     flex-direction: row;
     place-items: center;
     justify-content: center;
+    height: 5rem;
+    width: 5rem;
+    padding-left: 50%;
 }
 
 
 main {
-    background-image: url(../assets/klatrerbakgrunn.jpg);
+    background-image: url(./assets/klatrerbakgrunn.jpg);
     background-image: no-repeat;
     background-size: cover;
     background-position: fit-content;
-    width: fit-content;
-    height: fit-content;
+    width: 70%;
+    height: 70%;
 }
 
-section {
-    flex-direction: row;
+section .LoggInn {
+    background-color: #006A65;
+    flex-direction: column;
     display: inline-flex;
+    padding-left: 50%;
+
+    
 }
 
