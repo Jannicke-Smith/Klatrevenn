@@ -2,8 +2,41 @@ html {
 font-size: 120%;
 }
 
-.background-image {
+body {
+    background-color: #FAFDFB;
+    color: #ffffff;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
+
+
+/*
+  .klatrerbakgrunn {
   background: url(../assets/klatrerbakgrunn.jpg) no-repeat center center fixed; 
   background-size: cover;
-
+  height: 2560px;
+  width: 1440px;
 }
+*/
+
+.ToppLogo {
+    display:inline-flex;
+    flex-direction: row;
+    place-items: center;
+    justify-content: center;
+}
+
+
+main {
+    background-image: url(../assets/klatrerbakgrunn.jpg);
+    background-image: no-repeat;
+    background-size: cover;
+    background-position: fit-content;
+    width: fit-content;
+    height: fit-content;
+}
+
+section {
+    flex-direction: row;
+    display: inline-flex;
+}
+
