@@ -18,13 +18,14 @@
             <ul>
                 <li alt="om oss">Om oss</li>
                 <li alt="kart">Innlegg</li>
-                <li alt="Logg inn">Logg inn</li>
-                <li alt="Registrer">Registrer</li>
+                <li alt="Logg inn" onclick="alertFunksjonLoggInn()">Logg inn</li>
+                <li alt="Registrer" onclick="alertFunskjonRegistrer()">Registrer</li>
             </ul>
         </nav>
     </header>
     <main>
       <img class="bakgrunnsbilde" src="./assets/klatrerbakgrunn.jpg" alt="Bakgrunnsbilde av dame som klatrer">
+      <div class="beskrivendeText">Finn en klatrevenn og kom igang!</div>
         <article>
             <div class="BunnBildeContainer">
                 <img src="./assets/buldrekonkurranse.png" class="BunnBilde" alt="Bilde av konkurranse buldring">
@@ -40,14 +41,14 @@
             </div>
         </article>   
         <section>
-            <img calss="mockup" src="./assets/Mockup app.png" alt="forhåndsvisning av appen på mobil">
+            <img class="mockup" src="./assets/Mockup app.png" alt="forhåndsvisning av appen på mobil">
         </section>
 
     </main>
     
         <footer class="footer">
-            <div class="loginn" alt="Logg Inn" > Logg Inn </div>
-            <div class="sign-up" alt="Sign Up"> Registrer </div>
+            <div class="loginn" alt="Logg Inn" onclick="alertFunksjonLoggInn()"> Logg Inn </div>
+            <div class="sign-up" alt="Sign Up" onclick="alertFunskjonRegistrer()"> Registrer </div>
         </footer>
             
 </body>
