@@ -30,6 +30,10 @@ li {
     margin:auto;
 }
 
+li:hover {
+    color: #71F7ED;
+}
+
 main {
     background-size: cover;
     background-repeat: no-repeat;
@@ -96,6 +100,10 @@ footer {
     
 }
 
+@media screen {
+    
+}
+
 .loginn {
     background-color: #006A65;
     color: #FAFDFB;
@@ -119,3 +127,12 @@ footer {
         justify-content: center;
         padding: 2rem 5rem;
     }
+
+    .loginn:hover {
+        color: #71F7ED;
+    }
+
+    .sign-up:hover {
+        color: #ffffff;
+    }
+    
